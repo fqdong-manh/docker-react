@@ -6,4 +6,4 @@ before_install:
   - docker build -t fqdong-manh/docker-react -f Dockerfile.dev .
 
 scripts:
-  - docker run -e CI=true fqdong-manh/docker-react npm run test -- --coverage
+  - docker run -e CI=true fqdong-manh/docker-react npm run test 
